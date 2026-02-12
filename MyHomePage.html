@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>練習二</title>
+    <link rel="stylesheet" href="css/css_1.css">
+</head>
+    <style>
+        .section01{
+            background-color: var(--mycolor01);
+            position: relative;
+            height: 100vh;
+        }
+
+        .section01 .box01{
+            width: 200px;
+            height: 200px;
+            background-color: var(--mycolor09);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .section01 .box02{
+            width: 200px;
+            height: 200px;
+            background-color: var(--mycolor09);
+            position: absolute;
+            top: 0;
+            right: 0;
+        }  
+
+        .section01 .box03{
+            width: 200px;
+            height: 200px;
+            background-color: var(--mycolor09);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+
+        .section01 .box04{
+            width: 200px;
+            height: 200px;
+            background-color: var(--mycolor09);
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .bg-cover{
+            background-position: center center;
+            background-color: var(--mycolor03);
+        }
+        
+        .logo{
+            background-color: var(--mycolor10);
+            position: absolute;
+            top: 75px;
+            bottom: 75px;
+            left: 75px;
+            right: 75px;
+            background-image: url(images/1768056267639.jpg);
+            background-size: cover;
+            background-position: 0 0;
+            background-attachment: fixed;
+        }
+
+        .user_text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #ffffff;
+            background-color: rgb(0, 0, 0, 0.3);
+            padding: 30px;
+            border-radius: 30px;
+            font-weight: 700;
+            box-shadow: 1px 3px 1px 1px var(--mycolor01);
+        } 
+
+        .user_text h1{
+            font-size: 100px;
+            margin-bottom: 0;
+
+        }
+        
+        .user_text p{
+            font-size: 36px;
+        }
+
+        .secrion02{
+            position: relative;
+            height: 500px;
+            background-color: var(--mycolor13);
+            margin-top: 30px;
+            font-size: 36px;
+
+
+        }
+
+         
+        .section02_box01{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background-color: var(--mycolor12);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+        }
+
+        .section02_box02{
+            position: absolute;
+            left: 320px;
+            width: 300px;
+            height: 300px;
+            background-color: var(--mycolor11);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+
+
+        }
+
+       .section02_box03{
+            position: absolute;
+            left: 640px;
+            width: 300px;
+            height: 300px;
+            background-color: var(--mycolor10);
+            border-radius: 50%;
+            text-align: center;
+            line-height: 300px;
+
+        }
+        
+        /* @media screen and(max-width:1024px) {
+            .section02_box01, .section02_box02, .section02_box03{
+                width: 300px;
+                height: 300px;
+                background-color: var(--mycolor10);
+                border-radius: 50%;
+                text-align: center;
+                line-height: 300px;
+            }            
+        } */
+
+        .section02_box01 a{
+            font-size: 36px;
+            text-decoration: none;
+        }
+
+        .section02_box02 a{
+            font-size: 36px;
+            text-decoration: none;
+        }
+
+        .section02_box03 a{
+            font-size: 36px;
+            text-decoration: none;
+        }
+
+    </style>
+
+<body>
+    <div class="section01">
+        <div class="box01"></div>
+        <div class="box02"></div>
+        <div class="box03"></div>
+        <div class="box04"></div>
+        <div class="logo bg-cover"></div>
+        <div class="user_text">
+            <h1>邱丁丁</h1>
+            <hr>
+            <h2>大大鼻子</h2>
+            <p>123456789</p>
+        </div>
+
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="section02">
+        <div class="section02_box01 bg-cover">
+            <a href="260212.html">作品集一</a>
+        </div>
+
+        <div class="section02_box02 bg-cover">
+            <a href="#">作品集二</a>
+        </div>
+
+        <div class="section02_box03 bg-cover">
+            <a href="#">作品集三</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
